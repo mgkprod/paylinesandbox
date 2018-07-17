@@ -8,5 +8,6 @@ include "include.php";
 
 ?>
 
-<a href="example1.php">doWebPayment, without "version"</a><br>
-<a href="example2.php">doWebPayment, with "version"</a>
+<s><a href="example1.php">Failed doWebPayment, without "version"</a></s><br>
+<s><a href="example2.php">Failed doWebPayment, with "version"</a></s><br>
+<a href="example3.php">Working doWebPayment, with buyerAddress inconsistency and Cofidis timeout</a>
