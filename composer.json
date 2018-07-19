@@ -1,6 +1,5 @@
 {
 	"require" : {
-		"monext/payline-sdk" : "dev-master",
-		"symfony/var-dumper": "^4.1"
+		"monext/payline-sdk" : "dev-master"
 	}
 }

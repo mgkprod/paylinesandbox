@@ -48,11 +48,19 @@ $doWebPayment['buyer'] = [
     ],
 ];
 
-dump('SDK request:', $doWebPayment);
+echo 'SDK request:<br>';
+
+echo "<pre>";
+var_dump($doWebPayment);
+echo "</pre>";
 
 $doWebPaymentResponse = $paylineSDK->doWebPayment($doWebPayment);
 
-dump('WS response:', $doWebPaymentResponse);
+echo 'WS reponse:<br>';
+
+echo "<pre>";
+var_dump($doWebPaymentResponse);
+echo "</pre>";
 
 if (isset($doWebPaymentResponse['redirectURL'])) {
     echo 'Success !<br><a href="' . $doWebPaymentResponse["redirectURL"] . '">' . $doWebPaymentResponse["redirectURL"] . '</a>';

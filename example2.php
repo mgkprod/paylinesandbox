@@ -34,7 +34,7 @@ $doWebPayment['order'] = [
     'deliveryMode' => 4,
 ];
 
-dump($doWebPayment);
+var_dump($doWebPayment);
 
 $doWebPaymentResponse = $paylineSDK->doWebPayment($doWebPayment);
 
